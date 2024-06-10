@@ -1,0 +1,18 @@
+.footer {
+    background-color: #add8e6;
+    padding: 20px;
+    text-align: center; /* Centraliza todo o texto */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo */
+    align-items: center;
+    height: 100%; /* Para centralizar verticalmente */
+}
+
+.contact-info {
+    font-size: 18px; /* Tamanho de fonte 20px */
+    line-height: 1.5; /* Espaçamento entre linhas */
+}
+

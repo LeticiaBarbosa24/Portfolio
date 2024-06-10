@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    background: linear-gradient(135deg, #98FB98, #FFFFFF);
+
+    width: 100%; /* tamanho da div geral */
+    padding: 200px 0; /* Espaçamento interno */
+    margin-top: 10px; /* margem superior para preencher o fundo */
+}
+#projetos h2 {
+    font-size: 25px; /* Tamanho do texto */
+    margin-top: 70px; /* Espaço acima do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+#projetos h4 {
+    font-size: 18px; /* Tamanho do texto */
+    margin-top: 150px; /* Espaço acima do texto */
+  
+}
+
+
+.box {
+    width: calc(33.33% - 20px); /* Calcula o tamanho para ocupar 1/3 da largura com o espaçamento entre eles */
+    margin-right: 40px; /* Espaçamento entre os boxes ao lado */
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Espaçamento entre os boxes abaixo */
+}
+
+
+
+.box h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.box p {
+    color: #666;
+    font-size: 18px;
+    text-align: justify;
+}
+

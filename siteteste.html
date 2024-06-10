@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <title>Letícia Barbosa </title>
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="/assets/img/ms-icon-310x310.png"
+        />
+        <!-- Navegação e início -->
+        <link rel="stylesheet" href="navegacao-inicio.css.css" />
+        <!-- Sobre mim -->
+        <link rel="stylesheet" href="sobre-mim.css" />
+        <!-- Projetos -->
+        <link rel="stylesheet" href="projetos.css" />
+        <!-- Habilidades -->
+        <link rel="stylesheet" href="certificacoes.css" />
+        <!-- footer -->
+        <link rel="stylesheet" href="footer.css" />
+    </head>
+    <body onload="typeWriter(fName);">
+        <div>
+            <!-- menu -->
+            <input
+                id="close-menu"
+                class="close-menu"
+                type="checkbox"
+                aria-label="close-menu"
+                role="button"
+            />
+            <label
+                class="close-menu-label"
+                for="close-menu"
+                title="close menu"
+            ></label>
+            <div class="barra">
+                <div class="menu-centro">
+                    <div class="barra-conteiner centralizador">
+                        
+                        <nav class="direita">
+                            <ul
+                                onclick="getElementById('close-menu').checked=false;"
+                            >
+                                <li><a href="#inicio">Início</a></li>
+                                <li><a href="#sobre-mim">Sobre mim</a></li>
+                                <li><a href="#projetos">Projetos</a></li>
+                                <li><a href="#certificacoes">Certificações</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- menu -->
+
+            <!-- primeira tela -->
+            <section id="inicio">
+                <div class="altura-ajuste">
+                    <div class="inicio centralizador">
+                        <div class="ajustador organizador">
+                            <div class="apresentacao">
+                                <p class="descricao">
+                                    <br />
+                                    <!-- Desenvolvedor Full Stack -->
+                                    Desenvolvedora Front-End e DBA<br />
+                                    <span
+                                        style="display: inline"
+                                        class="meu-nome"
+                                        >Leticia Barbosa.</span
+                                    >
+                                    
+                                </p>
+                                <br />
+                                <div class="Instagram">
+                                    <a
+                                        href="https://wa.link/7vduwf"
+                                        target="_blank"
+                                        class="link"
+                                        >Contato</a
+                                    >
+                                </div>
+                            </div>
+                            <div class="desenho">
+                                <img
+                                    class="desenho2"
+                                    src="imagem/logoinicial.png"
+                                    alt="Eu-em-desenho"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- primeira tela -->
+
+            <!-- sobre mim -->
+            <section id="sobre-mim">
+                <div class="centralizador">
+                   
+                        <div class="sobre-mim">
+                            <div class="texto">
+                            <h2>Sobre mim</h2>
+                            <br />
+                            <p>
+                                Meu nome é Leticia Barbosa, 24 anos, concluindo um curso tecnico em  T.I. Tenho uma grande paixão 
+                                por tecnologia e banco de dados,
+                                o que me motivou a seguir o caminho da programação e banco de dados. Possuo experiência 
+                                em desenvolvimento web, onde trabalho em diversos projetos, como catálogos 
+                                de produtos/serviços, páginas iniciais, formulários de cadastro e gerenciamento 
+                                de banco de dados. Fora a programação, também tenho conhecimentos sobre Hardware. Atualmente, 
+                                estou concentrando meus esforços em aprimorar minhas habilidades em tecnologias de FrontEnd e 
+                                como administradora de banco de dados.
+                            </p>
+                            
+                            <p>
+                                Presentemente, possuo conhecimentos básicos e iniciais em tecnologias essenciais, tais como HTML, CSS, Javascript, 
+                                MySQL, SQL Server e C#. Além disso, acumulei experiência em desenvolvimento com WordPress. Estou continuamente aprimorando 
+                                minhas habilidades e conhecimentos nessas áreas para me manter atualizada e competente no campo da tecnologia.
+                            </p>
+                        </div>
+                    </div>
+                        <div class="foto">
+                            <!-- Aqui você pode inserir sua foto 3x4 -->
+
+                            <img src="caminho_para_sua_foto.jpg" alt="Sua Foto">
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <!-- sobre mim -->
+
+            <!-- Projetos -->
+            <section id="projetos">
+                <div class="container">
+                    
+                    <h2>Projetos que desenvolvi com as linguagens que aprendi e média de valores iniciais</h2>
+                    <br>
+                    <h4>Clique nos icones </h4>
+                    
+                    <div class="box">
+                        <h3>Sites em PHP</h3>
+                        <p>O PHP é frequentemente usado para criar sites dinâmicos, interativos 
+                            e que se conectam a bancos de dados para fornecer conteúdo personalizado aos usuários. 
+                            Para desenvolver esse tipo de site, você investiria um valor a partir de R$ 1.000,00</p>
+                        <img src="imagem/logophp.png" alt="Logo PHP" onclick="window.location='link_do_site_php';">
+                    </div>
+                    <div class="box">
+                        <h3>SQL Server e/ou MySql</h3>
+                        <p>SQL Server é um sistema de gerenciamento de banco de dados relacional desenvolvido 
+                            pela Microsoft. Ele permite armazenar, manipular e recuperar dados de maneira eficiente e 
+                            segura. Para o desenvolvimento ou a administração de um banco de dados, você investiria um 
+                            valor a partir de R$ 900,00</p>
+                        <img src="imagem/logosql.png" alt="Logo SQL" onclick="window.location='link_do_site_sql';">
+                    </div>
+                    <div class="box">
+                        <h3>Sites em HTML, CSS e JS</h3>
+                        <p>São páginas da web que utilizam linguagens de marcação (HTML), estilo (CSS) e programação 
+                            (JavaScript) para criar uma experiência interativa e visualmente atraente para os usuários. 
+                            Para desenvolver esse tipo de site, você investiria um valor a partir de R$ 700,00</p>
+                        <img src="imagem/logoprojetos.png" alt="Logotipo HTML, CSS e JS" onclick="window.location='link_do_site_html_css_js';">
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Projetos -->
+
+            <!-- Certificações -->
+            <section id="certificacoes">
+                <h2>Meus Cursos</h2>
+                <div class="certificacoes">
+                    <div class="main-content-item">
+                    
+                        <h2>Item 1</h2>
+                        <img class="main-content-item-image" src="https://www.ancodeai.com/placeholder.svg" alt="Image of a product" />
+                    </div>
+                    <div class="main-content-item">
+                        <h2>Item 2</h2>
+                        <img class="main-content-item-image" src="https://www.ancodeai.com/placeholder.svg" alt="Image of a product" />
+                    </div>
+                    <div class="main-content-item">
+                        <h2>Item 3</h2>
+                        <img class="main-content-item-image" src="https://www.ancodeai.com/placeholder.svg" alt="Image of a product" />
+                    </div>
+                    <div class="main-content-item">
+                        <h2>Item 4</h2>
+                        <img class="main-content-item-image" src="https://www.ancodeai.com/placeholder.svg" alt="Image of a product" />
+                    </div>
+                    <div class="main-content-item">
+                        <h2>Item 5</h2>
+                        <img class="main-content-item-image" src="https://www.ancodeai.com/placeholder.svg" alt="Image of a product" />
+                    </div>
+                    <div class="main-content-item">
+                        <h2>Item 6</h2>
+                        <img class="main-content-item-image" src="https://www.ancodeai.com/placeholder.svg" alt="Image of a product" />
+                    </div>
+                    <div class="main-content-item">
+                        <h2>Item 6</h2>
+                        <img class="main-content-item-image" src="https://www.ancodeai.com/placeholder.svg" alt="Image of a product" />
+                    </div>
+                    <div class="main-content-item">
+                        <h2>Item 6</h2>
+                        <img class="main-content-item-image" src="https://www.ancodeai.com/placeholder.svg" alt="Image of a product" />
+                    </div>
+                    <div class="main-content-item">
+                        <h2>Item 6</h2>
+                        <img class="main-content-item-image" src="https://www.ancodeai.com/placeholder.svg" alt="Image of a product" />
+                    </div>
+                </div>
+            </section>            
+            
+            <!-- Certificações -->
+
+            <!-- footer -->
+            <footer class="footer">
+                <div class="footer-container">
+                    <div class="contact-info">
+                        Contato: leticia2020dnr@gmail.com <br>
+                        Leticia Barbosa <br>
+                        Construindo juntos o futuro da tecnologia.
+                    </div>
+                    
+                </div>
+            </footer>
+            
+            <!-- footer -->
+        </div>
+        <script src="./assets/js/scroll.js"></script>
+        <script src="./assets/js/maquina_escrever.js"></script>
+        <script src="certificacoes.js"></script>
+    </body>
+</html>

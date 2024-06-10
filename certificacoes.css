@@ -1,0 +1,49 @@
+
+  /* Estilos para a seção de certificações */
+#certificacoes {
+    font-size: 20px; /* Tamanho do texto selecionado aumentado */
+    padding: 40px 10px; /* Espaçamento interno menor */
+    text-align: center; /* Centralizar os elementos */
+    /* Substitua 'caminho/para/sua/imagem.jpg' pelo caminho da sua imagem */
+    background-size: cover; /* Para cobrir todo o container com a imagem */
+    background-position: center; /* Para centralizar a imagem */
+    background-repeat: no-repeat; /* Para evitar a repetição da imagem */
+    margin-top: 50px; /* Margem superior maior para destacar na tela */
+}
+
+/* Estilos para a div certificacoes */
+.certificacoes {
+    display: flex; /* Usar flexbox */
+    justify-content: space-between; /* Distribuir o espaço entre os containers */
+    flex-wrap: wrap; /* Quebrar a linha se necessário */
+}
+
+/* Estilos para os containers de habilidades */
+.main-content-item {
+    width: calc(30% - 2px); /* Largura de cada container (30% - margem) */
+    height: 200px; /* Altura fixa */
+    margin: 10px; /* Espaçamento entre os quadrados */
+    cursor: pointer; /* Cursor do mouse */
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+    position: relative; /* Posição relativa para permitir o posicionamento da imagem */
+}
+
+.main-content-item:hover {
+    background-color: #999; /* Cor de fundo alterada ao passar o mouse */
+}
+
+/* Estilos para as imagens dentro do container de descrição */
+.main-content-item img {
+    height: auto; /* Altura automática para manter a proporção */
+    margin-top:10px; /* Margem superior */
+}
+
+
+
+
+
+
+
+
+
+

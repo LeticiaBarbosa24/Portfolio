@@ -1,0 +1,38 @@
+#sobre-mim {
+    margin-top: 10px;
+    background-image: url('imagem/imagemfundosobre.jpg');
+    padding: 150px 0; /* Espaçamento interno */
+    background-size: cover; /* Faz a imagem cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem horizontalmente e verticalmente */
+}
+
+.centralizador {
+    max-width: 1024px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centralizar horizontalmente */
+}
+
+.sobre-mim {
+   
+    text-align: right; /* Justificar o texto */
+    font-size: 20px; /* Tamanho da fonte do texto */
+    color: black;
+
+}
+.texto {
+    flex: 1;
+    text-align: justify;
+    margin-right: 20px; /* Ajuste para posicionar o texto mais para a direita */
+}
+
+.sobre-mim h2 {
+    color: black; /* Cor do título */
+    font-size: 36px; /* Tamanho do título */
+    margin-bottom: 15px; /* Espaçamento inferior do título */
+}
+
+.foto {
+    width: 70%; /* Ajuste a largura da foto */
+    margin-left: auto; /* Centralize a foto para a esquerda */
+    margin-right: auto; /* Centralize a foto para a direita */
+}
+
